@@ -1,5 +1,4 @@
-# prj-cursobasico-6
-Calculadora de peso, Projecto numero 6
+# Calculadora de peso
 
 ##Autor
 
