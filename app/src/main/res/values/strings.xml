@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculadora De Peso</string>
+    <string name="pesoLibra">Peso(Lb)</string>
+    <string name="pesoKilo">Peso(Kg)</string>
+    <string name="calcular">Calcular</string>
+    <string name="peso_kg">Peso(Kg)</string>
+    <string name="altura_cm">Altura(Cm)</string>
+    <string name="libras">Libras</string>
+    <string name="sexo">Sexo</string>
+    <string name="ingrese_sus_datos">Ingrese sus datos</string>
+    <string name="indice_de_masa_corporal">Indice de masa corporal</string>
+    <string name="_18_8">18,8</string>
+    <string name="de_18_5_a_24_9">- De 18,5 a 24,9</string>
+    <string name="normal">Normal.</string>
+    <string name="enhorabuena_tiene_usted_un_nivel_normal">Enhorabuena, tiene usted un nivel normal.</string>
+    <string name="peso_ideal">Peso ideal</string>
+    <string name="_71_7_79_3">71,7 - 79,3</string>
+    <string name="_71_7_79">71,7 - 79,</string>
+    <string name="de_185_a_24_9">- De 185 a 24,9</string>
+    <string name="volver">Volver</string>
+</resources>

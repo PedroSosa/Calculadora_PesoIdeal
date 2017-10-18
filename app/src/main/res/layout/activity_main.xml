@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context="com.app.softdrive.calculadoradepeso.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingrese_sus_datos"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/txt"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/sext"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="55sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sexo"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:layout_width="150dp"
+
+        android:layout_marginLeft="10sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spsex"
+        android:spinnerMode="dropdown"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/sext"
+        />
+
+    <CheckBox
+        android:id="@+id/lbl"
+        android:layout_below="@id/spsex"
+        android:text="@string/libras"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="32sp"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/Altt"
+        android:layout_marginLeft="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_below="@id/spsex"
+        android:textColor="@android:color/white"
+        android:text="@string/altura_cm"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spalt"
+        android:gravity="center"
+        android:layout_below="@id/Altt"
+        />
+
+    <TextView
+        android:id="@+id/pesot"
+        android:layout_marginLeft="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:layout_below="@id/spsex"
+        android:textColor="@android:color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25sp"
+        android:text="@string/peso_kg"
+        android:textSize="18sp"/>
+
+    <Spinner
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sppeso"
+        android:gravity="center"
+        android:layout_below="@id/pesot"
+        android:layout_alignParentRight="true"
+        />
+
+    <Spinner
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sppesoL"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_below="@id/pesot"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/btncalc"
+        android:layout_marginTop="100sp"
+        android:layout_below="@id/sppeso"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
